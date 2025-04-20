@@ -9,12 +9,12 @@ import React from 'react'; // Import React to use JSX
 const PortfolioCard = ({ name, title, description, skills }) => {
 return (
 // Main container for the card with Tailwind CSS classes for styling
-<div className="max-w-sm rounded overflow-hidden shadow-lg p-4 bg-white"> {/* Card layout */}
+<div className="max-w-sm rounded overflow-hidden shadow-lg p-4 bg-black"> {/* Card layout */}
 {/* Display the user's name in a bold, centered heading */}
 <h1 className="text-xl font-bold text-center">{name}</h1> {/* Display Name */}
 
 {/* Display the user's job title in a smaller, gray-colored, centered paragraph */}
-<p className="text-center text-gray-500">{title}</p> {/* Job Title */}
+<p className="text-center text-White-500">{title}</p> {/* Job Title */}
 
 {/* Display the user's description in a gray-colored paragraph with some margin at the top */}
 <p className="mt-4 text-gray-700">{description}</p> {/* Description Paragraph */}
