@@ -1,5 +1,6 @@
 import React from 'react';
 import PortfolioCard from './components/PortfolioCard';
+import LoginForm from  './components/LoginForm';
 
 function App(){
 
@@ -13,6 +14,8 @@ function App(){
         description="Passionate about clean UI and interactive apps." // Description
         skills={["React", "JavaScript", "Tailwind CSS", "Git"]} // Skills array
       />
+      <LoginForm /> {/* Added LoginForm component */}
+      
     </div>
     </>
   )
