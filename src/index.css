@@ -70,7 +70,29 @@ button:focus-visible {
 
 @tailwind base;
 @tailwind components;
+
+
+@layer components {
+  .custom-button {
+    @apply bg-blue-500 text-black font-bold py-2 px-4 rounded;
+  }
+}
+
+/* @layer components {
+  .custom-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+  .custom-card {
+    @apply max-w-sm rounded overflow-hidden shadow-lg p-6 bg-white;
+  }
+} */
+
+
 @tailwind utilities;
 
 
-
+/* 
+Explanation:
+@layer components tells Tailwind to place the styles in the components layer, which ensures proper precedence in the CSS cascade (after base but before utilities).
+.custom-button is your custom class name.
+@apply pulls in Tailwind utility classes (bg-blue-500, text-white, etc.) to define the custom-button class. */

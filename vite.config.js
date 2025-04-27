@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+// import "./src/index.css"; // Importing the global CSS file
+
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -20,3 +22,5 @@ export default defineConfig({
 //     port: 3000, // Specify the development server port
 //   },
 // });
+
+// Vite will process input.css using PostCSS and Tailwind, generating an optimized CSS file in the dist folder.

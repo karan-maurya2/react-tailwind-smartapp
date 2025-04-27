@@ -11,7 +11,7 @@ function LoginForm(){
                 <h1 className="text-2xl font-bold mb-4">Login</h1>
                 <input type="text" placeholder="Username" className="mb-4 p-2 border rounded-lg" />
                 <input type="password" placeholder="Password" className="mb-4 p-2 border rounded-lg" />
-                <button type="submit" className="bg-blue-500 text-white p-2 rounded">Login</button>
+                <button type="submit" className="custom-button ">Login</button>
             </div>
         
         </form>
