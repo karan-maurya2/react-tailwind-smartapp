@@ -6,11 +6,11 @@ function LoginForm(){
     return(
         <>
         
-        <form action="https://example.com" method="get">
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 border-2 border-blue-500">
+        <form action="https://example.com" method="get" className="flex flex-col bg-yellow-100">
+            <div className="flex flex-col items-center justify-center min-h-60 bg-gray-100 border-2 border-red-500 ">
                 <h1 className="text-2xl font-bold mb-4">Login</h1>
-                <input type="text" placeholder="Username" className="mb-4 p-2 border rounded" />
-                <input type="password" placeholder="Password" className="mb-4 p-2 border rounded" />
+                <input type="text" placeholder="Username" className="mb-4 p-2 border rounded-lg" />
+                <input type="password" placeholder="Password" className="mb-4 p-2 border rounded-lg" />
                 <button type="submit" className="bg-blue-500 text-white p-2 rounded">Login</button>
             </div>
         

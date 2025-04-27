@@ -7,7 +7,7 @@ function App(){
   return(
 
     <>
- <div className="flex justify-center items-center min-h-screen bg-gray-100"> {/* Center card */}
+ <div className="flex justify-center items-center min-h-screen bg-yellow-100 border-2 border-blue-500"> {/* Center card */}
       <PortfolioCard
         name="John Doe" // Your Name
         title="Frontend Developer" // Your Title
