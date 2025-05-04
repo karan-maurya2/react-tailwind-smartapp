@@ -1,0 +1,12 @@
+function calculation(params) {
+
+
+    return(
+
+        <>
+        
+       
+        
+        </>
+    )
+}
