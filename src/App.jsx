@@ -2,6 +2,7 @@ import React from 'react';
 import PortfolioCard from './components/PortfolioCard';
 import LoginForm from  './components/LoginForm';
 import BulletCard from './components/BulletCard';
+import FileFromTerminal from './components/FileFromTerminal';
 
 function App(){
 
@@ -20,6 +21,8 @@ function App(){
         skills={["React", "JavaScript", "Tailwind CSS", "Git"]} // Skills array
       />
       <LoginForm /> {/* Added LoginForm component */}
+
+      <FileFromTerminal /> {/* Added FileFromTerminal component */}
       
     </div>
     </>
