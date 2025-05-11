@@ -20,6 +20,8 @@ function calculation() {
   <div className="bg-sky-800">Box9</div>
   <div className="bg-sky-900">Box10</div>
   <div className="bg-sky-950">Box11</div>
+
+  <input type="button" value="Click Me" />
 </div>
         
         </>
