@@ -4,7 +4,7 @@ import React from "react";
 function BulletCard(){
 
 return(
-    <div className="space-y-6">
+    <div className="space-y-6  bg-yellow-200 border-4 border-red-600">
         <p>An advanced uses fo Tailwind css</p>
         <ul className="space-y-3">
           <li className="flex">
