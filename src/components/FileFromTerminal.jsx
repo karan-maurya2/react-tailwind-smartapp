@@ -22,6 +22,7 @@ function calculation() {
   <div className="bg-sky-950">Box11</div>
 </div>
         
+<button className="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
         </>
     )
 }
