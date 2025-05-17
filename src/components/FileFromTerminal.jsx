@@ -20,21 +20,24 @@ function calculation() {
   <div className="bg-sky-800">Box9</div>
   <div className="bg-sky-900">Box10</div>
   <div className="bg-sky-950">Box11</div>
-  <ul role="list">
-  
-    {/* <!-- Remove top/bottom padding when first/last child --> */}
-    <li className="flex py-4 first:pt-0 last:pb-0">
-      <img className="h-10 w-10 rounded-full" alt="" />
-      <div className="ml-3 overflow-hidden">
-        <p className="text-sm font-medium text-gray-900 dark:text-white"></p>
-        <p className="truncate text-sm text-gray-500 dark:text-gray-400"></p>
-      </div>
-    </li>
- 
-</ul>
 
-  <input type="button" value="Click Me" />
-  
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="odd:bg-white even:bg-gray-50 dark:odd:bg-gray-900/50 dark:even:bg-gray-950">
+        <td>{}</td>
+        <td>{}</td>
+        <td>{}</td>
+      </tr>
+
+  </tbody>
+</table>
 </div>
         
 <button className="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
