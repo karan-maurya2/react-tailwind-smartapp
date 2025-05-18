@@ -27,6 +27,8 @@ function calculation() {
         <th>Name</th>
         <th>Title</th>
         <th>Email</th>
+        <th>Address</th>
+        <th>Country</th>
       </tr>
     </thead>
     <tbody>
