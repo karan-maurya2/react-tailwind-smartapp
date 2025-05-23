@@ -15,7 +15,6 @@ function LoginForm(){
                 <input type="password" placeholder="Password" className="mb-4 p-2 border rounded-lg" />
                 <button type="submit" className="custom-button ">Login</button>
             </div>
-        <p>we need to add code for form validation</p>
         </form>
         </div>
         </>
