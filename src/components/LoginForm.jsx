@@ -16,6 +16,7 @@ function LoginForm(){
                 <button type="submit" className="custom-button ">Login</button>
             </div>
         </form>
+        <p className="text-center text-gray-600 mt-4">Don't have an account? <a href="/signup" className="text-blue-500">Sign up</a></p>
         </div>
         </>
     );
