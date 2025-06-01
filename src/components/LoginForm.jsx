@@ -15,6 +15,7 @@ function LoginForm(){
                 <input type="password" placeholder="Password" className="mb-4 p-2 border rounded-lg" />
                 <button type="submit" className="custom-button ">Login</button>
             </div>
+            <p clpssName="text-center text-gray-600 mt-4">Don't have an account? <a href="/signup" className="text-blue-500">Sign up</a></p>
         </form>
         </div>
         </>
