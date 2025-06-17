@@ -17,6 +17,8 @@ function LoginForm(){
             </div>
         </form>
         </div>
+
+        <p className='text-center text-gray-800'>This is a simple login form</p>
         </>
     );
 
