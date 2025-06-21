@@ -17,7 +17,7 @@ function LoginForm(){
             </div>
         </form>
         </div>
-        <p>this request is for user login</p>
+       
 </>
     );
 
