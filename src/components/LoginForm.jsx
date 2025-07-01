@@ -18,7 +18,6 @@ function LoginForm(){
         </form>
 
         </div>
-       <p>this is the code for login form</p>
 </>
     );
 
