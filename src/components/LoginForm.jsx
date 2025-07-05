@@ -17,7 +17,6 @@ function LoginForm(){
             </div>
         </form>
         </div>
-        <p className="text-center text-gray-600 mt-4"></p>
 </>
     );
 
