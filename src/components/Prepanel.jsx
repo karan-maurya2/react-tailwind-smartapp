@@ -9,6 +9,8 @@ const Prepanel = () => {
 <div>
 
     <h1>Prepanel</h1>
+
+    <><h2>Subheading</h2></>
 </div>
 
         </>
