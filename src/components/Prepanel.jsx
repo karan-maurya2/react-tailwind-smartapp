@@ -14,7 +14,7 @@ const Prepanel = () => {
 </div>
 
 
-<p>This is a paragraph.</p>
+
         </>
     )
 
