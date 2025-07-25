@@ -12,7 +12,7 @@ const Prepanel = () => {
 
     <h2>Subheading</h2>
 </div>
-<p>this a paragraph</p>
+
 
         </>
     )
